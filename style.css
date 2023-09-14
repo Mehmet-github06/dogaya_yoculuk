@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Audiowide&family=Roboto:wght@100&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+}
+.container{
+    background: url(./img/indir0.jpeg);
+    height: 100vh;
+    background-size: 100% 100%;
+
+}
+.container .navbar {
+    width: 100%;
+    height: 100px;
+    background:rgba(175, 179, 184, 0.4);
+    /* border: 2px solid red; */
+
+}
+.navbar .logo{
+    display: inline-block;
+    margin-left: 50px;
+    margin-top: 30px;
+}
+
+.navbar .logo a{
+    text-decoration: none;
+    font-size: 30px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #f3f3f3;
+
+
+}
+.navbar ul{ 
+    float: right;
+    margin-right: 20px;
+
+}
+
+.navbar ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 08px;
+    line-height: 80px;
+}
+.navbar ul li a{
+    color: #f3f3f3;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 5px 13px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    transition: .5s;
+
+}
+.navbar ul li a.active,
+.navbar ul li a:hover{
+    background: #ff6e00;
+    border-radius: 20px;
+}
+
+.container .center{
+    position: absolute;
+    top: 50%;
+    left: 50%;transform: translate(-50%,-50%);
+    font-family: sans-serif;
+    user-select: none;
+}
+
+.center h1{
+    color: black;
+    font-size: 70px;
+    font-weight: bold;
+    width: 900px;
+    text-align: center;
+}
+
+.center h2 {
+    color: #f3f3f3;
+    font-size: 50px;
+    font-weight: 885px;
+    margin-top: 10px;
+    text-align: center;
+
+
+}
+
+.center .buttons{
+    margin: 35px 280px;
+}
+.buttons button{
+    height: 50px;
+    width: 150px;
+    font-size: 18px;
+    font-weight: bold;
+    color: black;
+    background-color: burlywood;
+    border: 2px solid red;
+    border-radius: 20px;
+    cursor: pointer;
+    outline: none;
+    transition: .5s;
+
+}
+button:hover{
+    background-color: #fff;
+    transition: .5s;
+}
